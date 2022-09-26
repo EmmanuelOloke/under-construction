@@ -9,7 +9,7 @@ import { useEffect } from 'react';
 const Home: NextPage = () => {
   useEffect(() => {
     const type = new Typed('.auto-type', {
-      strings: ['emmanueloloke.dev', 'Come back soon'],
+      strings: ['Under Construction', 'emmanueloloke.dev', 'Come back soon!'],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true,
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
   return (
     <div className="container">
       <h1>
-        Under Construction: <span className="auto-type"></span>
+        <span className="auto-type"></span>
       </h1>
     </div>
   );
